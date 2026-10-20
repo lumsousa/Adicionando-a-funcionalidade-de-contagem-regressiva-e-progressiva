@@ -1,0 +1,27 @@
+contador = 0
+
+print("Digite [1] para contagem de 1 a 10, [2] para contagem de 10 a 1, [3] para sair:")
+N = int(input())
+
+while N != 3:
+
+    if N == 1:
+
+        contador = 1
+
+        while contador <= 10:
+            print(contador)
+            contador = contador + 1
+
+    elif N == 2:
+
+        contador = 10
+
+        while contador >= 1:
+            print(contador)
+            contador = contador - 1
+
+    print("Digite [1] para contagem de 1 a 10, [2] para contagem de 10 a 1, [3] para sair:")
+
+    N = int(input())
+    
